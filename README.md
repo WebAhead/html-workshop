@@ -142,25 +142,21 @@ Your code should look something like this:
 
     <details>
      <summary>Code result</summary>
-       &lt;div&gt;
-       <br>
-        &lt;h1&gt;The Main Heading&lt;/h1&gt;
-        <br>
-        &lt;!-- My smart comment! --&gt;
-        <br>
-        &lt;h2&gt;Subheading&lt;/h2&gt;
-        <br>
-        &lt;p&gt;Paragraph&lt;/p&gt;
-        <br>
-        &lt;img src="/" alt="Image"&gt;
-        <br>
-        &lt;div&gt;
-        <br>
-          &lt;p&gt;Second Paragraph&lt;/p&gt;
-          <br>
-        &lt;/div&gt;
-        <br>
-      &lt;/div&gt;
+     
+    ```html
+    <div>
+        <h1>The Main Heading</h1>
+        <!-- My smart comment! -->
+        <h2>Subheading</h2>
+        <p>Paragraph</p>
+        <img src="/" alt="Image">
+        
+        <div>
+            <p>Second Paragraph</p>
+        </div>
+    </div>
+    ```
+    
     </details>
 
       <details>
