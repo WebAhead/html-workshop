@@ -103,12 +103,6 @@ Your code should look something like this:
 
 - Right click on your html file and click on `open in browser`, this should open the browser with the result of this file. You should see the h1 heading with `The Main Heading` on the page.
 
-<details>
-  <summary>If you are using Atom</summary>
-  To be able to preview your html file in a browser, install the _open-in-browsers_ package by going to:
-  
-  Atom -> Preferences -> Install
-  </details>
 
 - Let's explore this a bit more, in the browser, open the inspector. You can do so by either pressing `f12` or right clicking on the page and then inspect or pressing `ctrl+shift+i`.
 
