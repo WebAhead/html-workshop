@@ -2,8 +2,6 @@
 
 ![html5 logo](https://user-images.githubusercontent.com/22002193/69446950-26f68b00-0d5e-11ea-96dd-eb217f407b56.jpg)
 
-HTML is one of the most widely used languages on Web to develop web pages. It helps you delve into the world of Web Development and improve your skills.
-
 ## Contents
 
 - Origin of HTML
@@ -37,7 +35,7 @@ https://codepen.io/shiryz/pen/pooBWVW?editors=1000#0
 Try it yourself, add the following line to the pen:
 
 ```html
-<h2>This is an h2 tag</h2>
+<p>My car is very grumpy</p>
 ```
 
 ### Tag exploration
@@ -48,24 +46,12 @@ Let's explore our paragraph element a bit further:
 
 The main parts of our element are:
 
-1. The opening tag - `<p>`: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets `<>`. This states where the element begins or starts to take effect — in this case where the start of the paragraph is.
-2. The closing tag - `</p>`: This is the same as the opening tag, except that it includes a forward slash before the element name `</>`. This states where the element ends — in this case where the end of the paragraph is. Failing to include a closing tag is a common beginner error and can lead to strange results.
+1. The opening tag - `<p>`: This consists of the name of the element (in this case, p which is short for paragraph), wrapped in opening and closing angle brackets `<>`. This states where the element begins or starts to take effect.
+2. The closing tag - `</p>`: This is the same as the opening tag, except that it includes a forward slash before the element name `</>`. This states where the element ends. **if you do not include a closing tag** you will see erros and weird behaviour.
 3. The content: This is the content of the element, which in this case is just text.
-4. The element: The opening tag plus the closing tag plus the content equals the element.
+4. The element: The opening tag + the closing tag + the content equals the element.
 
-## Basic structure of an HTML page
 
-![html basic structure](https://user-images.githubusercontent.com/22002193/69439363-72556d00-0d4f-11ea-8779-2005751cdd10.png)
-
-The three tags that you need for your HTML document are `<html>`, `<head>`, and `<body>`.
-
-1. The `<html></html>` tag is the highest level element that encloses every HTML page.
-2. The `<head></head>` tag holds meta information such as the page’s title and charset.
-3. Finally, the `<body></body>` tag encloses **all the content that appears on the page**.
-
-## How does HTML work?
-
-HTML documents end with the .html or .htm extension. You can view it using any web browser. The browser reads the HTML file and renders the content for users to view it.
 
 ### Task: Build a basic HTML page
 
@@ -85,13 +71,11 @@ The result should look like the following:
 </html>
 ```
 
-_Note: We will explore all the tags later_
+> We will explore all the tags later
 
 - In the `<body>` tag add an `<h1>`
 
-Headings are defined with the `<h1>` to `<h6>` tags.
-
-`<h1>` defines the most important heading and `<h6>` defines the least important heading.
+> Headings are defined with the `<h1>` to `<h6>` tags.
 
 Your code should look something like this:
 
@@ -101,7 +85,7 @@ Your code should look something like this:
 </body>
 ```
 
-- Right click on your html file and click on `open in browser`, this should open the browser with the result of this file. You should see the h1 heading with `The Main Heading` on the page.
+- Right click on your html file and click on `open in browser` or `open with live server`, this should open the browser with the result of this file. You should see the h1 heading with `The Main Heading` on the page.
 
 
 - Let's explore this a bit more, in the browser, open the inspector. You can do so by either pressing `f12` or right clicking on the page and then inspect or pressing `ctrl+shift+i`.
@@ -115,25 +99,17 @@ Your code should look something like this:
     > Find out more about [`div`](https://www.w3schools.com/tags/tag_div.asp)
 
 - Add some more elements to your `div`, after each step refresh your browser to see the changes:
-
-  - Add the content `The Main Heading` to your `h1` tag.
-  - Add an `h2` tag that has the content `Subheading`.  
-  
-    > Why are headings [important?](https://www.w3schools.com/html/html_headings.asp)
+  - Add an `h2` tag that has the content `Subheading`. 
   - Add a `p` tag with the content `First paragraph`.
-  - Add an `img` tag with an image from your laptop of your choosing. Important: some html elements don't require a closing     tag, since nothing else can be put inside of them. Image is one such element.
-  
-    > More about [elements](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element) that shouldn't be closed.  
-    > More about [`img`](https://www.w3schools.com/tags/tag_img.asp).
-    
-  - Add a second `div` (nested div).
-  - In the second `div` add another `p` tag with the content `Second paragraph`.  
-    
-    Comments are used to leave messages for other devs without affecting the code itself. To add a comment in an html           file use the following syntax: `<!--` your comment goes in here `-->`
+  - Add an [`img`](https://www.w3schools.com/tags/tag_img.asp) with the following image url as it's source or src -> `https://avatars1.githubusercontent.com/u/59686503?s=200&v=4`. 
+     > **Important**: some html elements don't require a closing     tag, since nothing else can be put inside of them. Image is one such element.
+     > 
+     > More about [elements](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element) that shouldn't be closed.
+   - Add a second `div` (nested div).
+   - In the second `div` add another `p` tag with the content `Second paragraph`.
+ #### Comments are used to leave messages for other developers without affecting the code itself. To add a comment in an html file use the following syntax: `<!--` your comment goes in here `-->`, or press `ctrl + /`
   - Now add a comment to your file just below the main heading.
-  
-  - The result should look something like this (_only use this in case you are stuck_):
-
+  - The result should look something like this (_only use this in case you are stuck or done_):
     <details>
      <summary>Code result</summary>
      
@@ -143,29 +119,26 @@ Your code should look something like this:
         <!-- My smart comment! -->
         <h2>Subheading</h2>
         <p>Paragraph</p>
-        <img src="/" alt="Image">
+        <img src="https://avatars1.githubusercontent.com/u/59686503?s=200&v=4" alt="Image">
         
         <div>
             <p>Second Paragraph</p>
         </div>
     </div>
     ```
-    
     </details>
-
       <details>
       <summary>Result in browser</summary>
         <div>
           <h1>The Main Heading</h1>
           <h2>Subheading</h2>
           <p>Paragraph</p>
-          <img src="/" alt="Image">
+          <img src="https://avatars1.githubusercontent.com/u/59686503?s=200&v=4" alt="Image" alt="Image">
           <div>
             <p>Second Paragraph</p>
           </div>
         </div>
       </details>
-      
 ### Task 2: Add more elements to your HTML page  
 
 - Read about ways of creating [ordered](https://www.w3schools.com/tags/tag_ol.asp) and [unordered](https://www.w3schools.com/tags/tag_ul.asp) lists in html. In your file add two new `div`s and create one list in each of them. The lists should look like this:  
@@ -181,7 +154,7 @@ My to-do list:
   -  
 
 ### Task 3 - Build a webpage to match the _mockup_
-(In design, a mockup is  a mid- to high-fidelity representation of the product’s appearance that shows the basics of its functionality)   
+> In design, a mockup is  a mid- to high-fidelity representation of the product’s appearance that shows the basics of its functionality
 
 Create a new HTML file (let's call it exercise.html) and try to create a webpage that will look exactly like this mockup (you can click on the image to open it in a new tab, if you'd like to see a larger version of it). Mind the instructions.
 ![](https://i.imgur.com/UsMwmXa.png)
@@ -190,7 +163,7 @@ Create a new HTML file (let's call it exercise.html) and try to create a webpage
 - Use only HTML (even if you know CSS).
 - You can choose another picture of Narhwal, this picture is just an example.
 - The picture should be a link leading to an article about Narwhal (use whatever article you would like).
-- The name _Mac's Mission_ should lead to https://www.iampitbullstrong.com//.  
+- The name _Mac's Mission_ should lead to https://www.macsmission.org/.  
 
 <details>
      <summary>Hints</summary>  
@@ -220,16 +193,6 @@ In html a table is defined with the `<table>` tag. Each row is defined with the 
 
 ## Advanced HTML
 
-**HTML `<meta>` Tag**
-
-Meta tags are snippets of text that describe a page’s content; they will not be visible on the page itself, but only in the page’s source code (html). Those tags are content descriptors that help tell search engines what a web page is about. Meta tags always go inside the `<head>` element.
-
-* Read more about the [`<meta>`](https://www.w3schools.com/tags/tag_meta.asp) tag, and in the file you are working on add a `<meta>` element that gives the browser instructions on how to control the page's dimensions and scaling.
-
-<details>
-     <summary>Hint</summary>  
-Setting The Viewport
-  </details>
   
 #### HTML `<title>` Tag
 
@@ -249,15 +212,6 @@ The `<video>` tag specifies video, such as a movie clip.
 ```
 * Add a video to your file. If your user's browser doesn't support the `<video>` tag, show him a message saying he cannot view the video (Google is your friend). You can use this [MP4 file](http://mirrors.standaloneinstaller.com/video-sample/dolbycanyon.mp4). 
 
-#### HTML `<iframe>` Tag
-
-An inline frame is used to embed another document within the current HTML document.  
-
-```html
-<iframe src="http://..."></iframe>
-```
-
-* Add a frame showing your favorite news site to your html file.
 
 #### HTML `<script>` Tag
 
