@@ -56,7 +56,7 @@ The main parts of our element are:
 ### Task: Build a basic HTML page
 
 - open your favourite editor and create a file called `my-first-page.html`
-- type `html` in the page and press the `tab` key, this will automatically generate an html page for you.
+- type `html` in the page and press the `tab + !` keys, this will automatically generate an html page for you.
 
 The result should look like the following:
 
